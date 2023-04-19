@@ -30,6 +30,19 @@ async function connect() {
 
         });
 
+        const QuestionTable = `
+                CREATE TABLE IF NOT EXISTS question (
+                    id INTEGER PRIMARY KEY,
+                    title, description
+                );
+                `;
+
+        db.run(QuestionTable, (err) => {
+            if (err){
+                console.error(err.message);
+                throw err;
+            }
+        });
     });
    
     return db;
