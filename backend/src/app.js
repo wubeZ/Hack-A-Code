@@ -1,17 +1,19 @@
-import express, {request,response}  from "express";
-// import routes from '../src/common/routes.js'
+const express = require('express');
+const routes = require('./common/routers')
 
 const app = express()
 
 app.use(express.urlencoded({extended : true}))
 app.use(express.json())
 
-app.get('/', (request, response)=>{
+app.get('/v1', (request, response)=>{
     response.status(200).json('health check: OK')
 })
 
-// app.use('/v1/', routes) :TODO setup the routes
+app.use('/v1/', routes);
 
-export default app;
+
+
+module.exports = app;
 
 
