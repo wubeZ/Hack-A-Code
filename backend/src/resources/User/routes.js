@@ -1,5 +1,6 @@
 const router = require('express').Router()
 const userController = require('./controller')
+const auth = require('../../middlewares/auth')
 
 router
 .route('/')
@@ -8,8 +9,8 @@ router
 
 router
 .route('/:id')
-.get(userController.getUser)
-.put(userController.updateUser)
-.delete(userController.deleteUser)
+.get(auth, userController.getUser)
+.put(auth, userController.updateUser)
+.delete(auth, userController.deleteUser)
 
 module.exports = router;
