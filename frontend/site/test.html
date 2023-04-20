@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <title>My Web Page</title>
+<script>
+    const sqlite3 = require('sqlite3').verbose();
+</script>  
+<!-- <script src="../check.js"></script> -->
+</head>
+<body>
+    <h1>My List</h1>
+    <ul id="myList">
+    </ul>
+    
+    <script>
+      // get the results from the server
+      
+    // open the database
+    let db = new sqlite3.Database('/Users/user/Downloads/sqlite.db');
+    alert('error')
+    // perform a query
+    db.all('SELECT * FROM demo', [], (err, rows) => {
+    if (err) {
+       
+        throw err;
+    }
+
+
+        // display each result in a list item
+        rows.forEach(function(element) {
+            const listItem = document.createElement("li");
+            listItem.textContent = element;
+            myList.appendChild(listItem);
+        });
+    });
+    </script>
+</body>
+</html>
+<!-- <script>
+function doubleNumber(input) {
+    return input * 2;
+  }
+
+function runCode() {
+    
+    // Load the input test cases and expected answers from files
+    const fs = new FileReader();
+    fetch('test.txt')
+    .then(response => response.text())
+    .then(data => {
+        const input = data; // Output the contents of the file
+    // You can assign the contents to a variable here
+  })
+
+    // const input = fetch('test.txt')
+    alert(input[0]);
+    const expected = new File('test.out');
+    
+    // Your function to run user code goes here
+    function runUserCode(inputString) {
+    // This is an example of how to run user code with the provided input
+    // alert(inputString)
+    return inputString * 2;
+    }
+    alert('Here')
+    // Run the user's code against each test case and check the output
+    for (let i = 0; i < input.length; i++) {
+    const output = runUserCode(input[i]);
+    if (output.trim() !== expected[i].trim()) {
+        alert(`Test case ${i+1} failed: expected "${expected[i].trim()}", but got "${output.trim()}"`);
+    }
+    else {
+        alert(`Test case ${i+1} passed!`);
+    }
+    }
+}
+</script> -->

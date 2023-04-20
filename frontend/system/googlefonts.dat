@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webfonts>
+	<item family="" >
+		<variant file="\\Mac\Home\Documents\WYSIWYG Web Builder\system\downloads\KFOlCnqEu92Fr1MmSU5vAx05IsDqlA.ttf" >300</variant>
+		<variant file="\\Mac\Home\Documents\WYSIWYG Web Builder\system\downloads\KFOlCnqEu92Fr1MmWUlvAx05IsDqlA.ttf" >700</variant>
+		<variant file="\\Mac\Home\Documents\WYSIWYG Web Builder\system\downloads\KFOmCnqEu92Fr1Me5WZLCzYlKw.ttf" >regular</variant>
+		<subset>latin</subset>
+	</item>
+</webfonts>

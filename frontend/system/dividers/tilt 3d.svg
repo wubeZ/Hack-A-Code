@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 125" preserveAspectRatio="none">
+<path class="divider-fill" d="M0 0L1000 0 1000 62 0 0z"/>
+<path class="divider-fill" style="opacity:0.5" d="M0 0L1000 0 1000 62 0 62z"/>
+<path class="divider-fill" style="opacity:0.25" d="M1000 0L0 0 0 125 1000 62z"/>
+</svg>

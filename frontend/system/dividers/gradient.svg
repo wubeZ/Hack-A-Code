@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 169.75" preserveAspectRatio="none">
+<path class="divider-fill" d="M0 119.75h1000v50H0z"/>
+<path class="divider-fill" opacity=".8" d="M0 77.75h1000v40H0z"/>
+<path class="divider-fill" opacity=".6" d="M0 45.75h1000v30H0z"/>
+<path class="divider-fill" opacity=".4" d="M0 23.75h1000v20H0z"/>
+<path class="divider-fill" opacity=".2" d="M0 11.75h1000v10H0z"/>
+<path class="divider-fill" opacity=".1" d="M0 4.75h1000v5H0z"/>
+<path class="divider-fill" opacity=".05" d="M0 0h1000v2.5H0z"/>
+</svg>

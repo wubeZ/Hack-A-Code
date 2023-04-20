@@ -1,0 +1,37 @@
+.faq dl, dt, dl
+{
+  color: #000000;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+}
+.faq dt
+{
+   font-weight: bold !important;
+   text-decoration: none;
+   margin-bottom: 8px;
+   cursor: pointer;
+   line-height: 16px;
+   background: url(./images/faq_arrows.png) 0 0 no-repeat;
+   padding-left: 18px;
+}
+.faq dt:hover
+{
+   text-decoration: none;
+}
+.faq dt.open
+{
+   background-position: 0 -16px;
+}
+.faq dd
+{
+   font-weight: normal;
+   margin-bottom: 8px;
+   margin-left: 16px;
+   text-decoration: none;
+}
+.faq *:first-child
+{
+   margin-top: 8px;
+   padding-top: 0;
+}

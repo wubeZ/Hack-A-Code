@@ -1,0 +1,272 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hack-A-Code</title>
+<meta name="generator" content="WYSIWYG Web Builder 16 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="base/jquery-ui.min.css" rel="stylesheet">
+<link href="flexible_layout.css" rel="stylesheet">
+<link href="Problems.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="popper.min.js"></script>
+<script src="util.min.js"></script>
+<script src="collapse.min.js"></script>
+<script src="dropdown.min.js"></script>
+<script src="wb.validation.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="Problems.js"></script>
+
+</head>
+<body>
+   <div id="wb_header">
+      <div id="header">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_ThemeableMenu2" style="display:inline-block;width:100%;z-index:0;">
+                  <div id="ThemeableMenu2" class="ThemeableMenu2" style="width:100%;height:auto !important;">
+                     <div class="container">
+                        <a id="ThemeableMenu2-logo" href="#"><img alt="" title="" src="images/logo32.jpg"></a>
+                        <div class="navbar-header">
+                           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".ThemeableMenu2-navbar-collapse">
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                           </button>
+                        </div>
+                        <div class="ThemeableMenu2-navbar-collapse collapse">
+                           <ul class="nav navbar-nav">
+                              <li class="nav-item">
+                                 <a href="" class="nav-link"><i class="rowing"></i>Hack-A-Code</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-2">
+               <div id="wb_CssMenu1" style="display:inline-block;width:100%;z-index:1;">
+                  <ul id="CssMenu1" role="menubar" class="nav">
+                     <li class="nav-item firstmain"><a role="menuitem" class="nav-link" href="./Dashboard.html" target="_self" title="Dashboard">Dashboard</a>
+                     </li>
+                     <li class="nav-item"><a role="menuitem" class="nav-link withsubmenu" href="javascript:void(0)" target="_self" title="Learning-Path">Learning-Path</a>
+                        <ul role="menu">
+                           <li class="nav-item firstitem"><a role="menuitem" class="nav-link withsubmenu" href="javascript:void(0)" target="_self" title="Information">Information</a>
+                              <ul role="menu">
+                                 <li class="nav-item firstitem"><a role="menuitem" class="nav-link" href="./Learning-Path/Information/Welcome.html" target="_self" title="Welcome">Welcome</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Information/Problem-Solving.html" target="_self" title="Problem-Solving">Problem-Solving</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Information/Data-Structures.html" target="_self" title="Data-Structures">Data-Structures</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Information/Basic-Mathimatics.html" target="_self" title="Basic-Mathimatics">Basic-Mathimatics</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Information/Receiving-Input.html" target="_self" title="Receiving-Input">Receiving-Input</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Information/Python101.html" target="_self" title="Python101">Python101</a>
+                                 </li>
+                                 <li class="nav-item lastitem"><a role="menuitem" class="nav-link" href="./Learning-Path/Information/Time-Complexity.html" target="_self" title="Time-Complexity">Time-Complexity</a>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="nav-item"><a role="menuitem" class="nav-link withsubmenu" href="javascript:void(0)" target="_self" title="Beginner">Beginner</a>
+                              <ul role="menu">
+                                 <li class="nav-item firstitem"><a role="menuitem" class="nav-link" href="./Learning-Path/Beginner/Array-List.html" target="_self" title="Array">Array</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Beginner/Hash-Tables.html" target="_self" title="Hash-Tables">Hash-Tables</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Beginner/Sorting.html" target="_self" title="Sorting">Sorting</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Beginner/Linked-Lists.html" target="_self" title="Linked-Lists">Linked-Lists</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Beginner/Stacks-and-Queues.html" target="_self" title="Stacks-and-Queues">Stacks-and-Queues</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Beginner/Searching.html" target="_self" title="Searching">Searching</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Beginner/Two-Pointers.html" target="_self" title="Two-Pointers">Two-Pointers</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Beginner/Sliding-Window.html" target="_self" title="Sliding-Window">Sliding-Window</a>
+                                 </li>
+                                 <li class="nav-item lastitem"><a role="menuitem" class="nav-link" href="./Learning-Path/Beginner/Greedy-Algorithms.html" target="_self" title="Greedy-Algorithms">Greedy-Algorithms</a>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="nav-item"><a role="menuitem" class="nav-link withsubmenu" href="javascript:void(0)" target="_self" title="Intermediate">Intermediate</a>
+                              <ul role="menu">
+                                 <li class="nav-item firstitem"><a role="menuitem" class="nav-link" href="./Learning-Path/Intermediate/String.html" target="_self" title="String">String</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Intermediate/Divide-and-Conquer.html" target="_self" title="Divide-and-Conquer">Divide-and-Conquer</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Intermediate/Bit-Manipulation.html" target="_self" title="Bit-Manipulation">Bit-Manipulation</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Intermediate/Graph-Traversal.html" target="_self" title="Graph-Traversal">Graph-Traversal</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Intermediate/Prefix-Sum.html" target="_self" title="Prefix-Sum">Prefix-Sum</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Intermediate/Binary-Search.html" target="_self" title="Binary-Search">Binary-Search</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Intermediate/Numerics.html" target="_self" title="Numerics">Numerics</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Intermediate/Modulo-Arthimetic.html" target="_self" title="Modulo-Arthimetic">Modulo-Arthimetic</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Intermediate/Combinatorics.html" target="_self" title="Combinatorics">Combinatorics</a>
+                                 </li>
+                                 <li class="nav-item lastitem"><a role="menuitem" class="nav-link" href="./Learning-Path/Intermediate/Geometry.html" target="_self" title="Geometry">Geometry</a>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="nav-item lastitem"><a role="menuitem" class="nav-link withsubmenu" href="javascript:void(0)" target="_self" title="Advanced">Advanced</a>
+                              <ul role="menu">
+                                 <li class="nav-item firstitem"><a role="menuitem" class="nav-link withsubmenu" href="./Learning-Path/Advanced/Dynamic-Programming.html" target="_self" title="Dynamic-Programming">Dynamic-Programming</a>
+                                    <ul role="menu">
+                                       <li class="nav-item firstitem"><a role="menuitem" class="nav-link" href="./Learning-Path/Advanced/Common-Patterns-in-DP.html" target="_self" title="Common-Patterns-in-DP">Common-Patterns-in-DP</a>
+                                       </li>
+                                       <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Advanced/DP-for-Paths-in-a-Matrix.html" target="_self" title="DP-for-Paths-in-a-Matrix">DP-for-Paths-in-a-Matrix</a>
+                                       </li>
+                                       <li class="nav-item lastitem"><a role="menuitem" class="nav-link" href="./Learning-Path/Advanced/Common-Patterns-Continued.html" target="_self" title="Common-Patterns-Continued">Common-Patterns-Continued</a>
+                                       </li>
+                                    </ul>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Advanced/Advanced-Graph-Algorithm.html" target="_self" title="Advanced-Graph">Advanced-Graph</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Advanced/Advanced-Sorting-Algorithms.html" target="_self" title="Advanced-Sorting-Algorithms">Advanced-Sorting-Algorithms</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Advanced/Segment-Tree.html" target="_self" title="Segment-Tree">Segment-Tree</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Advanced/Database-Systems.html" target="_self" title="Database-Systems">Database-Systems</a>
+                                 </li>
+                                 <li class="nav-item"><a role="menuitem" class="nav-link" href="./Learning-Path/Advanced/String-Hashing.html" target="_self" title="String-Hashing">String-Hashing</a>
+                                 </li>
+                                 <li class="nav-item lastitem"><a role="menuitem" class="nav-link" href="./Learning-Path/Advanced/Cryptography.html" target="_self" title="Cryptography">Cryptography</a>
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="nav-item"><a role="menuitem" class="nav-link withsubmenu active" href="./Problems.html" target="_self" title="Problems">Problems</a>
+                     </li>
+                     <li class="nav-item"><a role="menuitem" class="nav-link" href="./Contest.html" target="_self" title="Contest">Contest</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-3">
+               <div id="wb_ThemeableMenu3" style="display:inline-block;width:100%;z-index:2;">
+                  <div id="ThemeableMenu3" class="ThemeableMenu3" style="width:100%;height:auto !important;">
+                     <div class="container">
+                        <a id="ThemeableMenu3-logo" href="#"><img alt="" title="" src="images/logo32.jpg"></a>
+                        <div class="navbar-header">
+                           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".ThemeableMenu3-navbar-collapse">
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                           </button>
+                        </div>
+                        <div class="ThemeableMenu3-navbar-collapse collapse">
+                           <ul class="nav navbar-nav">
+                              <li class="nav-item">
+                                 <a href="" class="nav-link">Matiows</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid1">
+      <div id="LayoutGrid1">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_Card4" style="display:flex;width:calc(100% - 20px);text-align:center;z-index:4;">
+                  <div id="Card4-card-body">
+                     <div id="Card4-card-item0">Problem Set</div>
+                     <div id="Card4-card-item1">Explore From a Problem Set Of 700+ Currated Questions.</div>
+                     <hr id="Card4-card-item2">
+                  </div>
+               </div>
+               <div id="wb_LayoutGrid3">
+                  <div id="LayoutGrid3">
+                     <div class="row">
+                        <div class="col-1">
+                           <input type="search" id="Editbox1" style="display:block;width:calc(100% - 40px);height:50px;z-index:3;" name="Question" value="" spellcheck="false" placeholder="Search by Question Name or Number">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid2">
+      <div id="LayoutGrid2">
+         <div class="row">
+            <div class="col-1">
+            </div>
+            <div class="col-2">
+               <div id="wb_Combobox1" style="display:inline-block;width:calc(100% - 10px);z-index:6;">
+                  <select name="Status" size="1" id="Combobox1" style="" tabindex="Status" title="Status">
+                     <option value="">Status</option>
+                     <option>Not-Solved</option>
+                     <option>Solved</option>
+                  </select>
+               </div>
+            </div>
+            <div class="col-3">
+               <div id="wb_Combobox2" style="display:inline-block;width:calc(100% - 10px);z-index:7;">
+                  <select name="Difficulity" size="1" id="Combobox2" style="" tabindex="Difficulity" title="Difficulity">
+                     <option value="">Difficulity</option>
+                     <option>Easy</option>
+                     <option>Medium</option>
+                     <option>Hard</option>
+                  </select>
+               </div>
+            </div>
+            <div class="col-4">
+               <div id="wb_ThemeableButton1" style="display:inline-block;width:100%;z-index:8;">
+                  <a class="ui-button ui-widget ui-corner-all" id="ThemeableButton1" href="#" id="ThemeableButton1" style="width:100%;height:100%;">Pick One</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid5">
+      <div id="LayoutGrid5">
+         <div class="row">
+            <div class="col-1">
+               <iframe name="InlineFrame1" id="InlineFrame1" src="./All-Topics.html" scrolling="no"></iframe>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid6">
+      <div id="LayoutGrid6">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_Text6">
+                  <span style="color:#FFFFFF;">Copyright © Hack-A-Code 2020<br><br>&quot; Where ever you are &quot;</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>
+ <script>
+   const myIframe = document.getElementById('InlineFrame1');
+   let intervalId = setInterval(() => {
+     const iframeWindow = myIframe.contentWindow;
+     const targetUrl = 'problem';
+     const currentUrl = iframeWindow.location.href;
+     if (currentUrl.includes(targetUrl)) {
+       clearInterval(intervalId);
+       myIframe.remove();
+       window.location.href = 'problem.html';
+     }
+   }, 100); // check every 1 second
+ </script>
+
+ 

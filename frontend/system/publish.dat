@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<publish_profiles>
+	<profile proxypassword="" proxyhost="" passive="true" port="21" username="" proxytype="0" proxyusername="" host="" url="http://" clearcontrolchannel="false" proxyport="1080" type="local" password="" name="My Computer" loglevel="1" folder="\\Mac\Home\Desktop\New folder (2)" forceutf8="false" >	</profile>
+</publish_profiles>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 230" preserveAspectRatio="none">
+<path class="divider-fill" style="opacity:0.3" d="M 505.29,47.51947 C 346.07,47.51947 235.61,230.3 0,230.3 V 0.3 h 508 z" />
+<path class="divider-fill" style="opacity:0.4" d="M 485.29,47.44 C 326.07,47.44 235.61,214.36 0,214.36 V 0.2 h 485.29 z" />
+<path class="divider-fill" style="opacity:0.5" d="m 485.29,48.46999 q -9.42,-0.31 -20,-0.32 c -159.22,0 -229.68,151 -465.29,151 v -198.24 h 485.29 z" />
+<path class="divider-fill" d="M 0,182 V -0.27 H 1000 V 24.4 C 787.4,24.4 781,99.85 702.92,99.85 645,99.85 632.92,46.97 445.29,46.97 286.07,46.97 235.61,182 0,182 Z" />
+</svg>

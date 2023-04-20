@@ -1,0 +1,93 @@
+.wwbeditor *
+{
+   box-sizing: border-box;
+}
+.wwbeditor, .wwbeditor iframe
+{
+   width: 100%;
+}
+.wwbeditor-container
+{
+   display: inline-block;
+}
+.wwbeditor-toolbar
+{
+   border: 1px solid #CCCCCC;
+   border-bottom: 0px none #CCCCCC;
+   background-color: #F9F9F9;
+   width: 100%;
+}
+.wwbeditor-toolbar *
+{
+   vertical-align: middle;
+}
+.wwbeditor-toolbar img
+{
+   padding: 3px 3px 3px 3px;
+   cursor: pointer;
+   cursor: hand;
+}
+.wwbeditor-toolbar select
+{
+   border: 1px solid #CCCCCC;
+   margin: 3px 3px 3px 3px;
+}
+.wwbeditor-content
+{
+   border: 1px solid #CCCCCC;
+   font-size: 12pt;
+   padding: 0px;
+   font-family: 'Arial';
+   width: 100%;
+   background-color: #FFFFFF;
+}
+.wwbeditor-content p
+{
+   padding: 0;
+}
+.wwbeditor-color_picker 
+{
+   width: 144px;
+   position: absolute;
+   border: 1px solid #CCCCCC;
+   background-color: #FFFFFF;
+   padding: 2px;
+}
+.wwbeditor-color_picker_cell 
+{
+   height: 12px;
+   width: 12px;
+   border: 1px solid #000;
+   margin: 2px;
+   float: left;
+   cursor: pointer;
+   line-height: 12px;
+}
+.wwbeditor-image-upload-popup
+{
+   overflow: hidden; 
+   position: absolute; 
+   z-index: 99999;
+}
+.wwbeditor-image-upload
+{
+   background-color: #FFFFFF;
+   border: 1px solid #CCCCCC; 
+   font-size: 12px; 
+   padding: 4px; 
+   width: 270px; 
+   text-align: left; 
+   overflow: hidden; 
+}
+.wwbeditor-close
+{
+   width: 16px; 
+   height: 16px; 
+   float: right; 
+   cursor: pointer; 
+   background-image: url("./images/close.png");
+}
+.wwbeditor-text
+{
+   padding-bottom: 5px; 
+}

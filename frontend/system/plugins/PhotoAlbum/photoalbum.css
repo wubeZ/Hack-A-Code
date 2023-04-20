@@ -1,0 +1,10 @@
+.photoalbum_img
+{
+   border-width: 1px;
+   border-color: #CCCCCC;
+   border-style: solid;
+   -moz-box-shadow: 3px 3px 4px #808080;
+   -webkit-box-shadow: 3px 3px 4px #808080;
+   box-shadow: 3px 3px 4px #808080;
+}
+

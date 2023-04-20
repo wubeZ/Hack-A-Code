@@ -1,0 +1,47 @@
+.blogitem
+{
+   border: 1px dotted silver;
+   margin: 0 0 10px 0;
+   padding: 10px;
+}
+.blogtitle
+{
+   display: block;
+   padding: 4px;
+   background-color: #CCCCCC;
+   text-align: left;
+   color: #000000;
+   font-weight: bold;
+}
+.blogdate
+{
+   float: right;
+   font-size: 80%;
+}
+.blogtext
+{
+   padding: 4px;
+}
+.blogimage
+{
+   margin-top: 10px;
+   max-width: 250px;
+   width: 100%;
+   height: auto;
+}
+.blognavigation
+{
+   padding-bottom: 5px;
+   margin-bottom: 5px;
+   text-align: center;
+}
+.blognavigation a
+{
+   text-decoration: none;
+   padding-left: 10px;
+   color: inherit;
+}
+.blognavigation a:hover
+{
+   text-decoration: underline;
+}

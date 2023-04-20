@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hack-A-Code</title>
+<meta name="generator" content="WYSIWYG Web Builder 16 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="flexible_layout.css" rel="stylesheet">
+<link href="String.css" rel="stylesheet">
+</head>
+<body>
+   <div id="wb_LayoutGrid5">
+      <div id="LayoutGrid5">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_CssMenu1" style="display:inline-block;width:223px;height:380px;z-index:0;">
+                  <ul id="CssMenu1" role="menubar" class="nav">
+                     <li class="nav-item firstmain"><a role="menuitem" class="nav-link" href="./All-Topics.html" target="_self" title="All-Topics">All-Topics</a>
+                     </li>
+                     <li class="nav-item"><a role="menuitem" class="nav-link" href="./Array.html" target="_self" title="Array">Array</a>
+                     </li>
+                     <li class="nav-item"><a role="menuitem" class="nav-link" href="./String.html" target="_self" title="String">String</a>
+                     </li>
+                     <li class="nav-item"><a role="menuitem" class="nav-link" href="./Hash-Table.html" target="_self" title="Hash Table">Hash&nbsp;Table</a>
+                     </li>
+                     <li class="nav-item"><a role="menuitem" class="nav-link" href="./Sorting.html" target="_self" title="Sorting">Sorting</a>
+                     </li>
+                     <li class="nav-item"><a role="menuitem" class="nav-link" href="./Dynamic-Programming.html" target="_self" title="Dynamic Programming">Dynamic&nbsp;Programming</a>
+                     </li>
+                     <li class="nav-item"><a role="menuitem" class="nav-link" href="./Math.html" target="_self" title="Maths">Maths</a>
+                     </li>
+                     <li class="nav-item"><a role="menuitem" class="nav-link" href="./Greedy.html" target="_self" title="Greedy">Greedy</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-2">
+               <table style="display:table;width:100%;z-index:1;" id="Table1">
+                  <tbody id="table-body">
+                     <script>
+                        const data = { 'topic': "String" }
+                        fetch('http://localhost:8000/v1/question/filter', {
+                        method: 'POST',
+                        headers: {
+                           'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(data)
+                        })
+                        .then(response => response.json())
+                          .then(data => {
+                           
+                            let tableBody = document.getElementById('table-body');
+                            data.forEach(item => {
+                              
+                              let row = document.createElement('tr');
+                              let noCell = document.createElement('td');
+                              let titleCell = document.createElement('td');
+                              let difficulityCell = document.createElement('td');
+                              let acceptanceCell = document.createElement('td');
+                              let statusCell = document.createElement('td');
+                              noCell.innerText = item.id;
+                              titleCell.innerText = item.title;
+                              difficulityCell.innerText = item.difficulty;
+                              acceptanceCell.innerText = item.acceptance;
+                              if (item.status == 1){
+                                 statusCell.innerText = "Solved";
+                                 statusCell.style.color = "Green";
+                              }
+                              else{
+                                 statusCell.innerText = "Not-Solved";
+                                 statusCell.style.color = "Red";
+                              }
+      
+                              noCell.classList.add('cell0');
+                              titleCell.classList.add('cell0');
+                              difficulityCell.classList.add('cell0');
+                              if (item.difficulty == "Easy"){
+                                 difficulityCell.style.color = "Green";
+                              }
+                              else if (item.difficulty == "Medium"){
+                                 difficulityCell.style.color = "Orange";
+                              }
+                              else {
+                                 difficulityCell.style.color = "Red";
+                              }
+                              acceptanceCell.classList.add('cell0');
+                              statusCell.classList.add('cell0');
+                              row.appendChild(noCell);
+                              row.appendChild(titleCell);
+                              row.appendChild(difficulityCell);                           
+                              row.appendChild(acceptanceCell);
+                              row.appendChild(statusCell);
+                              // alert(row);
+                              tableBody.appendChild(row);
+                            });
+                          })
+                          .catch(error => {
+                            console.error('Error:', error);
+                          });
+                      </script>
+                  </tbody>
+               </table>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>
