@@ -10,16 +10,17 @@ Hack-A-Code is an offline application designed to address the challenge of inter
 ## Technical Stack
 - Programming Languages: 
   - <img src="https://img.icons8.com/color/24/000000/javascript--v1.png"/> JavaScript (for front-end and back-end development)
-- Front-end Frameworks/Libraries: 
-  - <img src="https://img.icons8.com/color/24/000000/react-native.png"/> React (for building the UI) 
-  - <img src="https://img.icons8.com/color/24/000000/redux.png"/> Redux (for state management) 
-  - <img src="https://img.icons8.com/color/24/000000/axios.png"/> Axios (for HTTP requests) 
-  - <img src="https://img.icons8.com/color/24/000000/tailwind-css.png"/> Tailwind CSS (for styling)
+- Front-end Technologies: 
+  - <img src="https://img.icons8.com/color/24/000000/html-5--v1.png"/> HTML, 
+  - <img src="https://img.icons8.com/color/24/000000/css3.png"/> CSS, and 
+  - <img src="https://img.icons8.com/color/24/000000/javascript--v1.png"/> JavaScript (for building the UI) 
+  - <img src="https://img.icons8.com/color/24/000000/electron.png"/> Electron (for desktop application development)
 - Back-end Frameworks/Libraries: 
   - <img src="https://img.icons8.com/color/24/000000/nodejs.png"/> Node.js (for building the API)
 - Tools: 
   - <img src="https://img.icons8.com/color/24/000000/git.png"/> Git (for version control) 
   - <img src="https://www.freeimages.com/icon/sqlite-manager-icon-4800280"/> SQLite (for database management)
+
 
 ## Getting Started
 To get started with Hack-A-Code, follow these steps:
