@@ -21,6 +21,9 @@ const create = (req, res, next) => {
             logger.info(err.message);
             return res.status(404).json({ message: err.message });
           }
+          if (!row){
+            return res.status(404).json({ message: "No question found"});
+          }
           if (row[0].status === 0) {
             const new_status = 1;
             const question_id = row[0].id;
